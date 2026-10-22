@@ -1,0 +1,20 @@
+# RBA material: the RBA's notice forbids redistribution without its consent. Download it yourself (see MARTIN_NOTES.md).
+rba_supplement/
+rdp-2019-07-supplementary-information.zip
+rdp-2019-07-online-appendix.pdf
+rdp-2019-07-read-me.pdf
+rdp2019-07.pdf
+
+# Third-party repo (reference only)
+MARTIN-master.zip
+github_ref/
+
+# Local caches / editor files
+martin_data.rds
+model_text.txt
+.Rhistory
+.RData
+.Rproj.user/
+
+# Charts overlay the RBA's published curves; kept in a separate private repo
+output_figures/
