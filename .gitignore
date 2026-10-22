@@ -18,3 +18,6 @@ model_text.txt
 
 # Charts overlay the RBA's published curves; kept in a separate private repo
 output_figures/
+
+# Separate private repo holding the comparison charts (must never be committed here)
+martin_figures_repo/
