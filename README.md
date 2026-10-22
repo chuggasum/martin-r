@@ -47,3 +47,21 @@ Needs R with `readxl ggplot2 dplyr tidyr scales`. No EViews needed.
   time-varying export constants and three equation-object coefficients are recovered from the RBA's
   stored forecast (see `calibrate_tvc()` and `recover_eq_constants()`).
 * The file-format decoding is reverse-engineered, not an official specification.
+
+## Charts and the RBA's material
+
+The comparison charts are **not** in this repository. They overlay the RBA's published curves and
+chart data (RDP 2019-07), which the RBA does not allow to be redistributed without its consent, so the
+charts are kept private. Run `martin_model.R` with `SAVE_FIGURES <- TRUE` to regenerate all of them
+locally. For the same reason none of the RBA's files (workfile, graph data, scripts, PDFs) are included;
+`MARTIN_NOTES.md` explains how to download them.
+
+## Attribution and disclaimer
+
+This is an independent re-implementation. The model, data and published results belong to the authors
+of RBA Research Discussion Paper 2019-07 (Ballantyne, Cusbert, Evans, Guttmann, Hambur, Hamilton,
+Kendall, McCririck, Nodari and Rees, "MARTIN Has Its Place: A Macroeconometric Model of the Australian
+Economy", August 2019). Please cite that paper. As the RBA states, use of results from the paper should
+be attributed to the authors and not to the Reserve Bank of Australia; this project is not affiliated
+with or endorsed by the RBA. The RBA's supplementary files are "intended for academic and personal use
+only" and are used here on that basis.
